@@ -1,0 +1,26 @@
+#resultRow img{
+    width: 400px;
+    height: 300px;
+    border: 0.25cm solid whitesmoke;
+}
+
+
+#resultRow img:hover{
+    border-radius: 100px;
+}
+body{
+    background-color: wheat;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  #resultRow {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
